@@ -22,7 +22,7 @@ public class UsuarioRest {
 		return ResponseEntity.ok(user);
 	}
 	
-	@GetMapping
+	@GetMapping("/saludo")
 	//@RequestMapping(value = "hello", method = RequestMethod.GET)
 	public String saludo() {
 		
